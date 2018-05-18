@@ -1,9 +1,5 @@
 
   
-  body {
-    align-content: center;
-
-  }
 
   div {
     display: table-cell;
@@ -24,13 +20,14 @@
 
   }
     header {
-    border-bottom: solid;
-    border-color: #cccccc;
-    border-width: 2px;
-    padding: 0px;
-    margin-bottom: 20px;
+      border-bottom: solid;
+      border-color: #cccccc;
+      border-width: 2px;
+    margin-bottom: 0px;
     color: #333;
     background: #ffffff;
+    width: 960px;
+    padding:0 200px;
   }
   ul {
     font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
@@ -57,27 +54,61 @@ a:visited {
 }
 
  
-#section {
-    float: center;
+section {
+    margin: auto;
     padding: 200px;
-    width: 900px;
+    width: 960px;
     overflow: auto;
     color: #333;
     background: #eee;
     }
 
-aside {
+  #about {
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    font-size: 160%;
+    background-color:white;
+    width: 150px;
+    height: 50px;
+    color: #4aaaa5;
+    text-align: center;
+    vertical-align: middle; 
+    position: relative;
+    right: 20px; 
+
+  }
+
+  aside {
     float: center;
     width: 860px;
-    height: 300px;
+    height: 380px;
     padding: 20px;
     margin-left: -35px;
     margin-top: -160px;
     background: #fff;
-    border: 1px solid #eee;  
+    border: 1px solid #eee; 
+    border-color: #cccccc; 
       }
+    
+    paragraph{
+      color: #777777;
+    }
+    image {
+    
+      border-color: #f8f6f6;
+      border-width: 200px;
+      padding: 500px;
+       
+    }
+
+
+   
+     
 
     footer {
+        width: 960px;
+        height: 50px;
         color: #777777;
         background: #666666;
         padding: 20px;
@@ -86,6 +117,7 @@ aside {
         border-color: #4aaaa5;
         border-width: 7px;
         text-align: center;
+        padding:0 200px;
         
         
       

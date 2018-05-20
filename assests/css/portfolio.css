@@ -88,13 +88,14 @@ section {
     background: #fff;
     border: 1px solid #eee; 
     border-color: #cccccc; 
-      }
+    }
 
     
     img {
         width: 150px;
         height: 100px;
         padding: 10px;
+        float: right;
     }
 
    

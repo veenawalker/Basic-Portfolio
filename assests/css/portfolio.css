@@ -1,7 +1,6 @@
 
-  
 
-  div {
+  #division {
     display: table-cell;
     vertical-align: bottom;
     font-family: "Georgia", Times, Times New Roman, serif;
@@ -82,7 +81,7 @@ section {
   aside {
     float: center;
     width: 860px;
-    height: 380px;
+    height: 440px;
     padding: 20px;
     margin-left: 30px;
     margin-top: -160px;
@@ -90,23 +89,13 @@ section {
     border: 1px solid #eee; 
     border-color: #cccccc; 
       }
+
     
-    p{
-      color: #777777;
-    }
     img {
-    
-      border-color: #f8f6f6;
-      border-width: 200px;
-      padding-right: 5px;
-      padding-top: 5px;
-      margin-right: 10px;
-      width: 125px;
-      height: 150px;
-
-       
+        width: 150px;
+        height: 100px;
+        padding: 10px;
     }
-
 
    
      
@@ -124,6 +113,4 @@ section {
         text-align: center;
         padding:0 200px;
         
-        
-      
       }

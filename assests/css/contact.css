@@ -78,11 +78,14 @@ section {
     right: 20px; 
 
   }
+  table {
+    border-spacing: 15px;
+}
 
   aside {
     float: center;
     width: 860px;
-    height: 380px;
+    height: 600px;
     padding: 20px;
     margin-left: 30px;
     margin-top: -160px;
@@ -91,21 +94,62 @@ section {
     border-color: #cccccc; 
       }
     
-    p{
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #154745;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    width: 800px;
+    height: 340px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    vertical-align: left; 
+    position: relative;
+    right: -15px; 
+}
+.name {
+    color: rgb(80, 78, 78);
+    vertical-align: left; 
+    position: relative;
+    right: -15px; 
+
+}
+    /*paragraph{
       color: #777777;
     }
-    img {
+    image {
     
       border-color: #f8f6f6;
       border-width: 200px;
-      padding-right: 5px;
-      padding-top: 5px;
-      margin-right: 10px;
-      width: 125px;
-      height: 150px;
+      padding: 500px;
+      margin-right: 50px;
 
        
-    }
+    }*/
 
 
    
